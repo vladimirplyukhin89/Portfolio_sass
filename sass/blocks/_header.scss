@@ -6,16 +6,51 @@
 
     text-align: center;
 
+    width: inherit;
     height: 360px;
-    width: 320px;
+
+    background-color: #556983;
+    background-image: url('../../img/back_img.jpg');
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+
+    @media(min-width: 578px) {
+        //height: inherit;
+    }
+
 }
 
 .header__title {
-    @include fontz(32px, 41px, 700);
-    @include font-style($font_f, $color_b);
+    @include fontz(41px, 700);
+    @include font-clr($color_w);
+    @include adaptiv-font(56, 32);
+
+    letter-spacing: 0.05em;
+
+    margin-bottom: 10px;
+
+    @media(min-width: 680px) {
+        margin-bottom: 25px;
+    }
 }
 
-.header__description {
-    @include fontz(14px, 21px, 700);
-    @include font-style($font_f, $color_b)
+.header__subtitle {
+    @include fontz(21px, 700);
+    @include font-clr($color_w);
+    @include adaptiv-font(18, 14);
+
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.header__arrow {
+    width: 48px;
+    height: 48px;
+
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
