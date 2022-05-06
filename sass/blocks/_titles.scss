@@ -1,0 +1,51 @@
+.header__title {
+    @include fontz(41px, 700);
+    @include font-clr($color_w);
+    @include adaptiv-font(56, 32);
+
+    letter-spacing: 0.05em;
+
+    margin-bottom: 10px;
+
+    @media(min-width: 680px) {
+        margin-bottom: 25px;
+    }
+}
+
+.header__subtitle {
+    @include fontz(21px, 700);
+    @include font-clr($color_w);
+    @include adaptiv-font(18, 14);
+
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.main__title {
+    @include fontz(1, 700);
+    @include font-clr($color_b);
+    @include adaptiv-font(46, 32);
+
+    text-align: center;
+}
+
+.block__site_title {
+    @include fontz(1, 600);
+    @include font-clr($color_b);
+    @include adaptiv-font(24, 18);
+
+    margin-left: 15px;
+    margin-bottom: 10px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 13px;
+    }
+}
+
+.block__site_subtitle {
+    @include fontz(1, 400);
+    @include font-clr($color_b);
+    @include adaptiv-font(16, 14);
+
+    margin-left: 15px;
+}

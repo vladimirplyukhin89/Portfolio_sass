@@ -1,0 +1,21 @@
+%block {
+    width: 290px;
+    height: 220px;
+
+    background-color: $color_w;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+
+    margin-top: 30px;
+
+    @media(min-width: 576px) {
+        width: 340px;
+        height: 290px;
+
+        margin-top: 70px;
+    }
+
+    @media (min-width: 768px) {
+        width: 540px;
+        height: 375px;
+    }
+}

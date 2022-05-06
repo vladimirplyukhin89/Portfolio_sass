@@ -3,7 +3,11 @@
 @import './base/mixin';
 @import './base/fonts';
 @import './base/var';
+@import './base/pattern';
 
 // Blocks
 @import './blocks/app';
 @import './blocks/header';
+@import './blocks/main';
+@import './blocks/site';
+@import './blocks/titles';

@@ -3,5 +3,14 @@
     height: 100vh;
 
     font-family: $font_f;
+}
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 1110px;
+    width: 100%;
+
+    background-color: red;
 }

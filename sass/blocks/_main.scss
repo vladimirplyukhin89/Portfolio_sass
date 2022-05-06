@@ -1,0 +1,19 @@
+.main {
+    background-color: #E0E0E0;
+
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+    @media(min-width: 576px) {
+        padding-top: 80px;
+        padding-bottom: 115px;
+    }
+}
+
+.main__wrapper_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    //flex-wrap: wrap;
+    flex-direction: column;
+}

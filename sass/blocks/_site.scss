@@ -1,0 +1,30 @@
+.block__site {
+    @extend %block;
+}
+
+.block__site_container {
+    padding: 15px 15px 10px 15px;
+
+    @media(min-width: 576px) {
+        padding-bottom: 13px;
+    }
+
+    @media (min-width: 768px) {
+        padding-bottom: 20px;
+    }
+}
+
+.block__site_img {
+    width: 260px;
+    height: 130px;
+
+    @media(min-width: 576px) {
+        width: 310px;
+        height: 200px;
+    }
+
+    @media (min-width: 768px) {
+        width: 510px;
+        height: 275px;
+    }
+}
